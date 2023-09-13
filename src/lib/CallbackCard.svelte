@@ -1,5 +1,5 @@
 <script>
-	import { Card, Bottomsheet } from '../lib';
+	import { Card, Bottomsheet } from '$lib/index.js';
 
 	let open = false;
 
