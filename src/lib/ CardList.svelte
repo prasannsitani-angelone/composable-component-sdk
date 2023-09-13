@@ -14,16 +14,17 @@
 
 	const handleSelfScreen = () => {
 		goto('/detail');
-		// goto('http://localhost:3001/detail');
 	};
 </script>
 
-<main>
-	<Card
-		on:self-overlay={handleOpen}
-		on:self-screen={handleSelfScreen}
-		on:external-overlay
-		on:external-screen
-	/>
+<main class="relative h-[calc(100vh-0px)] {open ? 'overflow-hidden' : 'overflow-auto'}">
+	{#each new Array(10) as card}
+		<Card
+			on:self-overlay={handleOpen}
+			on:self-screen={handleSelfScreen}
+			on:external-overlay
+			on:external-screen
+		/>
+	{/each}
 	<Bottomsheet {open} on:close={handleClose} />
 </main>

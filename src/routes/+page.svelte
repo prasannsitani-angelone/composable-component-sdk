@@ -1,11 +1,9 @@
 <script>
-	import { CallbackCard } from '$lib/index.js';
+	import { CallbackCard, CardList } from '$lib/index.js';
 </script>
 
 <main>
-	<CallbackCard />
-	<CallbackCard />
-	<CallbackCard />
+	<CardList />
 </main>
 
 <style lang="postcss">
