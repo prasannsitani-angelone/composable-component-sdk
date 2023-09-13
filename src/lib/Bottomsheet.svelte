@@ -20,7 +20,7 @@
 		on:keypress
 	/>
 	<div
-		class={`absolute left-0 bottom-12 rounded-t-3xl max-h-[90%] w-screen overflow-scroll ${$$props.class} bg-slate-300`}
+		class={`absolute left-0 bottom-0 rounded-t-3xl max-h-[90%] w-screen overflow-scroll ${$$props.class} bg-slate-300 z-40`}
 		transition:slide={{ duration: 150, axis: 'y' }}
 	>
 		<div class="p-6">

@@ -13,11 +13,12 @@
 	};
 
 	const handleSelfScreen = () => {
-		goto('http://localhost:3001/detail');
+		goto('/detail');
+		// goto('http://localhost:3001/detail');
 	};
 </script>
 
-<main>
+<main class="z-10">
 	<Card
 		on:self-overlay={handleOpen}
 		on:self-screen={handleSelfScreen}

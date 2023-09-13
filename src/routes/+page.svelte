@@ -1,7 +1,13 @@
 <script>
-	import { Bottomsheet, CallbackCard } from '$lib/index.js';
+	import { CallbackCard } from '$lib/index.js';
 </script>
 
 <main>
 	<CallbackCard />
 </main>
+
+<style lang="postcss">
+	:global(html) {
+		background-color: theme(colors.gray.200);
+	}
+</style>
