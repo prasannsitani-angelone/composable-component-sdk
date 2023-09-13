@@ -3,11 +3,19 @@
 	const dispatch = createEventDispatcher();
 
 	function handleSelfOverlay() {
-		dispatch('open');
+		dispatch('self-overlay');
 	}
 
 	function handleExternalOverlay() {
-		dispatch('callback');
+		dispatch('external-overlay');
+	}
+
+	function handleSelfScreen() {
+		dispatch('self-screen');
+	}
+
+	function handleExternalScreen() {
+		dispatch('external-screen');
 	}
 </script>
 
@@ -24,6 +32,8 @@
 				<button class="btn btn-secondary" on:click={handleExternalOverlay}
 					>Open Parent Overlay</button
 				>
+				<button class="btn btn-info" on:click={handleSelfScreen}>Open Self Screen</button>
+				<button class="btn btn-success" on:click={handleExternalScreen}>Open Parent Screen</button>
 			</div>
 		</div>
 	</div>

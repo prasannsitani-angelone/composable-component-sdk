@@ -1,18 +1,7 @@
 <script>
-	import { Card, Bottomsheet } from '../lib';
-
-	let open = false;
-
-	const handleOpen = () => {
-		open = true;
-	};
-
-	const handleClose = () => {
-		open = false;
-	};
+	import { Bottomsheet, CallbackCard } from '$lib/index.js';
 </script>
 
 <main>
-	<Card on:open={handleOpen} />
-	<Bottomsheet {open} on:close={handleClose} />
+	<CallbackCard />
 </main>
