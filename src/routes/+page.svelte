@@ -4,6 +4,8 @@
 
 <main>
 	<CallbackCard />
+	<CallbackCard />
+	<CallbackCard />
 </main>
 
 <style lang="postcss">

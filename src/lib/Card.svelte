@@ -20,7 +20,7 @@
 </script>
 
 <main>
-	<div class="card shadow-xl flex justify-center items-center w-screen p-4">
+	<div class="card shadow-xl flex justify-center items-center w-full p-4">
 		<figure>
 			<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="Shoes" />
 		</figure>
