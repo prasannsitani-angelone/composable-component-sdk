@@ -13,6 +13,6 @@
 </script>
 
 <main>
-	<Card on:open={handleOpen} />
+	<Card on:open={handleOpen} on:callback />
 	<Bottomsheet {open} on:close={handleClose} />
 </main>
