@@ -4,10 +4,12 @@
 
 	function handleSelfOverlay() {
 		dispatch('self-overlay');
+		document.body.style.overflow = 'hidden';
 	}
 
 	function handleExternalOverlay() {
 		dispatch('external-overlay');
+		document.body.style.overflow = 'hidden';
 	}
 
 	function handleSelfScreen() {

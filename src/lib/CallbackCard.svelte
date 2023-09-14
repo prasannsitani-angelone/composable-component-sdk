@@ -14,7 +14,6 @@
 
 	const handleSelfScreen = () => {
 		goto('/detail');
-		// goto('http://localhost:3001/detail');
 	};
 </script>
 
