@@ -7,8 +7,8 @@
 	const closeDispatcher = createEventDispatcher();
 
 	function handleClose() {
-		closeDispatcher('close');
 		document.body.style.overflow = 'auto';
+		closeDispatcher('close');
 	}
 </script>
 

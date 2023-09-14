@@ -3,13 +3,13 @@
 	const dispatch = createEventDispatcher();
 
 	function handleSelfOverlay() {
-		dispatch('self-overlay');
 		document.body.style.overflow = 'hidden';
+		dispatch('self-overlay');
 	}
 
 	function handleExternalOverlay() {
-		dispatch('external-overlay');
 		document.body.style.overflow = 'hidden';
+		dispatch('external-overlay');
 	}
 
 	function handleSelfScreen() {
