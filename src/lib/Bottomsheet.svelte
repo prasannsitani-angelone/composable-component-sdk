@@ -8,6 +8,7 @@
 
 	function handleClose() {
 		closeDispatcher('close');
+		document.body.style.overflow = 'auto';
 	}
 </script>
 
@@ -31,7 +32,7 @@
 	>
 		<div class="p-6">
 			<div class="flex flex-col gap-4 justify-center items-center">
-				<h2 class="bold text-xl">Bottom Sheet Height</h2>
+				<h2 class="bold text-xl">Self Overlay</h2>
 				<p class="text-gray-600 text-ellipsis">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est voluptate reiciendis
 					perspiciatis, suscipit fugit expedita qui, doloribus quo iusto officia deserunt nam
