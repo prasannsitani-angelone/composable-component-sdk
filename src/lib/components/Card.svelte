@@ -4,8 +4,6 @@
 
 	export let number;
 
-	console.log('number : ', number);
-
 	function handleSelfOverlay() {
 		document.body.style.overflow = 'hidden';
 		dispatch('self-overlay');
