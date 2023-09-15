@@ -31,7 +31,7 @@
 			<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="Shoes" />
 		</figure>
 		<div class="pt-4 flex flex-col items-center gap-4">
-			<h2 class="font-bold text-xl capitalize">Shoes {number}</h2>
+			<h2 class="font-bold text-xl capitalize">Shoes {number === 10 ? 'abc' : 'xyz'}</h2>
 			<p>If a dog chews shoes whose shoes does he choose?</p>
 			<div class="card-actions justify-center">
 				<button class="btn btn-primary" on:click={handleSelfOverlay}>Open Self Overlay</button>
